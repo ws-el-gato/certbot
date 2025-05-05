@@ -10,3 +10,4 @@ certbot-apache==1.10.1 \
 certbot-nginx==1.10.1 \
     --hash=sha256:7c36459021f8a1ec3b6c062e4c4fc866bfaa1dbf26ccd29e043dd6848003be08 \
     --hash=sha256:c0bbeccf85f46b728fd95e6bb8c2649d32d3383d7f47ea4b9c312d12bf04d2f0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
